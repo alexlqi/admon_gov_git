@@ -1,0 +1,32 @@
+<?php //permisos y privilegios
+$barra=array(
+	"root"=>array(
+		"empresas"=>true,
+		"usuarios"=>true,
+		"pacientes"=>true,
+		"examenes"=>true,
+		"resultados"=>true,
+	),
+	"admin"=>array(
+		"empresas"=>true,
+		"usuarios"=>true,
+		"pacientes"=>true,
+		"examenes"=>true,
+		"resultados"=>true,
+	),
+	"medico"=>array(
+		"empresas"=>true,
+		"pacientes"=>true,
+		"examenes"=>true,
+		"resultados"=>true,
+	),
+	"cliente"=>array(
+		"pacientes"=>true,
+		"examenes"=>true,
+		"resultados"=>true,
+	),
+	"usuario"=>array(
+		"resultados"=>true,
+	),
+);
+?>
